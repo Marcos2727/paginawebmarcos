@@ -1,0 +1,58 @@
+*{
+morgin:0;
+padding: 0;
+}
+.caja{
+	width: 200px;
+	height: 200px ;
+	background: #ccc;
+	margin: 20px;
+}
+
+
+.posicionamiento{
+	background: pink;
+
+}
+/* .posicionamiento {
+ position: fixed;  absolute relative
+ top:100px;
+bottom: ;
+left:300px;
+right:;
+
+
+
+
+}*/
+.caja{
+	float: left;
+}
+
+
+.caja_padre{
+	width: 500px;
+	background: black;
+	position: absolute;
+	top:500px;
+	margin: 20px;
+}
+ .caja_hijo{
+ 	width: 200px;
+ 	height: 200px;
+ 	background: skyblue;
+ 	float: left;
+ 	margin: 25px;
+ }
+
+p{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: whit;
+	text-align: center;
+}
+
+
+
+
+
